@@ -1,0 +1,10 @@
+{
+  "name": "ESP32 PlatformIO",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -U platformio && pio pkg install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["platformio.platformio-ide"]
+    }
+  }
+}
